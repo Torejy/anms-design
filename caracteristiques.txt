@@ -1,0 +1,106 @@
+Header
+	Fond du header : #ffffff
+	Hauteur : 135px
+	
+	Menu
+		Bordure top du menu : #d4d4d4
+		Fond du menu : #ffffff
+		Couleur des liens : #050505
+		Bordure top des liens : #9ad6ed
+		Les liens : #ffffff Ariel Bold 3px
+		Bordure top des liens sélectionnées : #50a9ca
+		Fond des liens sélectionnés : #ffffff
+		Petites capitales ou majuscules
+		Hauteur : 30px
+
+Body
+	Contour du body : #eaeaea
+	Fond du body : #ffffff
+	Largeur : 1000px
+
+	Fil d'Ariane
+		Premier : #bdd985
+		Second : #d95151
+		Troisième : #292929
+		Couleur texte : #ffffff Ariel Bold 3px
+		Hauteur : 24px
+		
+	Espace fil-carrousel : 20px
+	
+	Carrousel
+		Hauteur : 163px
+		Largeur : 975px
+		Bordure : #d9d9d9 1px
+		Partie texte : 30px
+		Fond texte : #909090
+		Texte : #ffffff
+		Espace contenu-nav : 8px
+		
+	Espace carroussel-premier bloc : 26px
+	
+	Premier bloc
+		Titre
+			Hauteur : 34px
+			Fond 1 : #ededed
+			Fond 2 : #d95151
+			Texte 1 : #555555 Ariel Bold 4px
+			Texte 2 : #d95151 Ariel Bold 4px
+			Longueur 1 : 598px
+			Longueur intermédiaire : 36px
+			Angle : 45° (http://debray.jerome.free.fr/index.php?articles/Triangles-en-css)
+			Longueur 2 : 366px
+			
+		Espace titre-article : 5px
+		
+		Bloc article 
+			Largueur : 147px
+			Bordure : #ececec 1px
+			Fond : #fbfbfb
+			Titre : #54accc Ariel Bold 3.5px
+			Texte : #292929 Trebuchet MS 3px
+			Catégorie : #878787 italique
+			Saut de ligne : 8px
+			Espace image-titre : 22px
+			Espace titre-top : 23px
+			Espace titre-texte : 24px
+			Espace article-article : 7px
+			
+		Bloc information
+			Marge droite : 24px
+			Séparateur : 2px #ebebeb
+			
+	Transition bloc 1 et bloc 2 + titre
+		Couleur : #262d30
+		Hauteur : 89px
+		Espace barre et le bord: 40px
+		Epaisseur des barres : 3px
+		Espace entre les basses : 11px
+		Texte : Pacifico
+		
+		Bloc
+			Marge : 10px
+			Hauteur : 320px
+			Largueur : 310px
+			Bordure image : #efefef
+			Image : 308 sur 76
+			Espace image-titre : 9px
+			Espace ligne par ligne : 8px
+			Espace texte-bouton : 50px
+			Espace bouton-bord : 59px
+			Espace bouton-bouton : 19px
+			
+			Bouton (bleu) : 
+				color:#ffffff;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				border: 1px solid #008ca7;
+				background:#3cbcdb;
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="3cbcdb", endColorstr="009dbc"); /* Pour IE seulement et mode gradient à linear */
+				background-image: -webkit-gradient(linear, left top, left bottom, from(#3cbcdb), to(#009dbc));
+				background-image: -moz-linear-gradient(top center, #3cbcdb, #009dbc);
+				background-image: -o-linear-gradient(top, #3cbcdb, #009dbc); /*uniquement en mode linear*/
+		https://Torgi@github.com/Torgi/anms-design.git
+	
+	
+	
