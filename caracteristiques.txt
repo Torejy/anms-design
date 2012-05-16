@@ -58,7 +58,7 @@ Body
 			Fond : #fbfbfb
 			Titre : #54accc Ariel Bold 3.5px
 			Texte : #292929 Trebuchet MS 3px
-			Cat�gorie : #878787 italique
+			Catégorie : #878787 italique
 			Saut de ligne : 8px
 			Espace image-titre : 22px
 			Espace titre-top : 23px
@@ -67,7 +67,7 @@ Body
 			
 		Bloc information
 			Marge droite : 24px
-			S�parateur : 2px #ebebeb
+			Séparateur : 2px #ebebeb
 			
 	Transition bloc 1 et bloc 2 + titre
 		Couleur : #262d30
