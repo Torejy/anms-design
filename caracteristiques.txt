@@ -8,8 +8,8 @@ Header
 		Couleur des liens : #050505
 		Bordure top des liens : #9ad6ed
 		Les liens : #ffffff Ariel Bold 3px
-		Bordure top des liens s�lectionn�es : #50a9ca
-		Fond des liens s�lectionn�s : #ffffff
+		Bordure top des liens sélectionnées : #50a9ca
+		Fond des liens sélectionnés : #ffffff
 		Petites capitales ou majuscules
 		Hauteur : 30px
 
@@ -21,7 +21,7 @@ Body
 	Fil d'Ariane
 		Premier : #bdd985
 		Second : #d95151
-		Troisi�me : #292929
+		Troisième : #292929
 		Couleur texte : #ffffff Ariel Bold 3px
 		Hauteur : 24px
 		
@@ -46,8 +46,8 @@ Body
 			Texte 1 : #555555 Ariel Bold 4px
 			Texte 2 : #d95151 Ariel Bold 4px
 			Longueur 1 : 598px
-			Longueur interm�diaire : 36px
-			Angle : 45� (http://debray.jerome.free.fr/index.php?articles/Triangles-en-css)
+			Longueur intermédiaire : 36px
+			Angle : 45° (http://debray.jerome.free.fr/index.php?articles/Triangles-en-css)
 			Longueur 2 : 366px
 			
 		Espace titre-article : 5px
