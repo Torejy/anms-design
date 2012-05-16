@@ -8,8 +8,8 @@ Header
 		Couleur des liens : #050505
 		Bordure top des liens : #9ad6ed
 		Les liens : #ffffff Ariel Bold 3px
-		Bordure top des liens sélectionnées : #50a9ca
-		Fond des liens sélectionnés : #ffffff
+		Bordure top des liens sï¿½lectionnï¿½es : #50a9ca
+		Fond des liens sï¿½lectionnï¿½s : #ffffff
 		Petites capitales ou majuscules
 		Hauteur : 30px
 
@@ -21,7 +21,7 @@ Body
 	Fil d'Ariane
 		Premier : #bdd985
 		Second : #d95151
-		Troisième : #292929
+		Troisiï¿½me : #292929
 		Couleur texte : #ffffff Ariel Bold 3px
 		Hauteur : 24px
 		
@@ -46,8 +46,8 @@ Body
 			Texte 1 : #555555 Ariel Bold 4px
 			Texte 2 : #d95151 Ariel Bold 4px
 			Longueur 1 : 598px
-			Longueur intermédiaire : 36px
-			Angle : 45° (http://debray.jerome.free.fr/index.php?articles/Triangles-en-css)
+			Longueur intermï¿½diaire : 36px
+			Angle : 45ï¿½ (http://debray.jerome.free.fr/index.php?articles/Triangles-en-css)
 			Longueur 2 : 366px
 			
 		Espace titre-article : 5px
@@ -58,7 +58,7 @@ Body
 			Fond : #fbfbfb
 			Titre : #54accc Ariel Bold 3.5px
 			Texte : #292929 Trebuchet MS 3px
-			Catégorie : #878787 italique
+			Catï¿½gorie : #878787 italique
 			Saut de ligne : 8px
 			Espace image-titre : 22px
 			Espace titre-top : 23px
@@ -67,7 +67,7 @@ Body
 			
 		Bloc information
 			Marge droite : 24px
-			Séparateur : 2px #ebebeb
+			Sï¿½parateur : 2px #ebebeb
 			
 	Transition bloc 1 et bloc 2 + titre
 		Couleur : #262d30
@@ -96,11 +96,10 @@ Body
 				border-radius: 5px;
 				border: 1px solid #008ca7;
 				background:#3cbcdb;
-				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="3cbcdb", endColorstr="009dbc"); /* Pour IE seulement et mode gradient à linear */
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="3cbcdb", endColorstr="009dbc"); /* Pour IE seulement et mode gradient ï¿½ linear */
 				background-image: -webkit-gradient(linear, left top, left bottom, from(#3cbcdb), to(#009dbc));
 				background-image: -moz-linear-gradient(top center, #3cbcdb, #009dbc);
 				background-image: -o-linear-gradient(top, #3cbcdb, #009dbc); /*uniquement en mode linear*/
-		https://Torgi@github.com/Torgi/anms-design.git
 	
 	
 	
