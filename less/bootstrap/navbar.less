@@ -15,8 +15,9 @@
 
 // Gradient is applied to it's own element because overflow visible is not honored by IE when filter is present
 .navbar-inner {
-  min-height: @navbarHeight;
-  border-top: 4px solid #9ad6ed;
+  height: @navbarHeight - 4;
+  padding-top : -4px;
+  border-top: 4px solid @borderMenu;
   border-bottom: 1px solid @borderMenu; 
 }
 
@@ -27,7 +28,10 @@
   margin-left: auto;
   max-width: 940px;
   border-left: 1px solid @borderMenu;
-  height: 37px;
+  height: 33px;
+  border-top: 4px solid @couleurMenu;
+  position: relative;
+  top: -4px;
 }
 
 // Override the default collapsed state
@@ -110,38 +114,33 @@
 
 // Navbar search
 .navbar-search {
+  width : 34%;
   position: relative;
   float: left;
-  .navbarVerticalAlign(28px); // Vertically center in navbar
-  margin-bottom: 0;
-  .search-query {
+  margin-top: 2.75px;
+  margin-left: 5px;
+  .query {
+    width: 81%;
     padding: 4px 9px;
-    #font > .sans-serif(13px, normal, 1);
-    color: @white;
-    background-color: @navbarSearchBackground;
-    border: 1px solid @navbarSearchBorder;
+    color: lighten(#c6c6c6, 10%);
+    border: 1px solid @borderMenu;
     .box-shadow(~"inset 0 1px 2px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.15)");
-    .transition(none);
-
-    // Placeholder text gets special styles; can't be a grouped selector
-    &:-moz-placeholder {
-      color: @navbarSearchPlaceholderColor;
-    }
-    &::-webkit-input-placeholder {
-      color: @navbarSearchPlaceholderColor;
-    }
-
     // Focus states (we use .focused since IE7-8 and down doesn't support :focus)
     &:focus,
     &.focused {
-      padding: 5px 10px;
-      color: @grayDark;
       text-shadow: 0 1px 0 @white;
-      background-color: @navbarSearchBackgroundFocus;
-      border: 0;
-      .box-shadow(0 0 3px rgba(0,0,0,.15));
-      outline: 0;
+      border: 1px solid @couleurMenu;
     }
+  }
+
+  .loupe{
+    height: 16px;
+    width: 16px;
+    margin-left: 9px;
+    border: 0;
+    background-image: url("../../img/header/loupe.png");
+    text-indent: -9999px;
+    font-size: 0;
   }
 }
 
@@ -191,8 +190,8 @@
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
-  height: 37px;
+  height: 33px;
+  width : 100%;
 }
 .navbar .nav.pull-right {
   float: right; // redeclare due to specificity
@@ -207,11 +206,11 @@
   text-transform: uppercase;
   font-family: Arial;
   font-weight: bolder;
-  font-size: 12px;
+  font-size: 11.45px;
   float: none;
   // Vertically center the text given @navbarHeight
   @elementHeight: 20px;
-  padding: ((@navbarHeight - @elementHeight) / 2) 10px ((@navbarHeight - @elementHeight) / 2 + 1);
+  padding: ((@navbarHeight - @elementHeight) / 2 - 1) 10px ((@navbarHeight - @elementHeight) / 2 + 1);
   line-height: 19px;
   color: @navbarLinkColor;
   text-decoration: none;
@@ -233,9 +232,12 @@
 }
 // Hover
 .navbar .nav > li > a:hover {
-  background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
-  color: @navbarLinkColorHover;
+  background-color: @couleurMenu; // "transparent" is default to differentiate :hover from .active
+  color: @white;
   text-decoration: none;
+  border-top: 4px solid #50a9ca;
+  position: relative;
+  top: -4px;
 }
 
 // Active nav items
