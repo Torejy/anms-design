@@ -7,6 +7,11 @@
 // GLOBAL VALUES
 // --------------------------------------------------
 
+// Mes variables
+@fond : 				#eaeaea;
+@texte : 				#292929;
+@borderMenu :			#dedede;
+
 
 // Grays
 // -------------------------
@@ -33,13 +38,13 @@
 
 // Scaffolding
 // -------------------------
-@bodyBackground:        @white;
-@textColor:             @grayDark;
+@bodyBackground:        @fond;
+@textColor:             @texte;
 
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+@linkColor:             #54accc;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -48,9 +53,10 @@
 @sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+@police: 				"Trebuchet MS", Times, serif;
 
 @baseFontSize:          13px;
-@baseFontFamily:        @sansFontFamily;
+@baseFontFamily:        @police;
 @baseLineHeight:        18px;
 @altFontFamily:         @serifFontFamily;
 
@@ -128,8 +134,8 @@
 
 // Sprite icons path
 // -------------------------
-@iconSpritePath:          "../img/glyphicons-halflings.png";
-@iconWhiteSpritePath:     "../img/glyphicons-halflings-white.png";
+@iconSpritePath:          "../../img/glyphicons-halflings.png";
+@iconWhiteSpritePath:     "../../img/glyphicons-halflings-white.png";
 
 
 // Input placeholder text color
@@ -144,21 +150,21 @@
 
 // Navbar
 // -------------------------
-@navbarHeight:                    40px;
-@navbarBackground:                @grayDarker;
-@navbarBackgroundHighlight:       @grayDark;
+@navbarHeight:                    37px;
+@navbarBackground:                @white;
+@navbarBackgroundHighlight:       @white;
 
 @navbarText:                      @grayLight;
-@navbarLinkColor:                 @grayLight;
-@navbarLinkColorHover:            @white;
+@navbarLinkColor:                 #050505;
+@navbarLinkColorHover:            #ffffff;
 @navbarLinkColorActive:           @navbarLinkColorHover;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      @navbarBackground;
 
-@navbarSearchBackground:          lighten(@navbarBackground, 25%);
+@navbarSearchBackground:          @white;
 @navbarSearchBackgroundFocus:     @white;
-@navbarSearchBorder:              darken(@navbarSearchBackground, 30%);
-@navbarSearchPlaceholderColor:    #ccc;
+@navbarSearchBorder:              @white;
+@navbarSearchPlaceholderColor:    @white;
 @navbarBrandColor:                @navbarLinkColor;
 
 
