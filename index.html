@@ -12,10 +12,12 @@
         <meta charset="utf-8" />
         <link rel="stylesheet/less" type="text/css" href="less/style.less">  
         <title>
-        	Animasphère.fr ─ Site francophone dédié à l'animation : actualités, articles, émissions, interviews…
+        	Animasphère.fr - Site francophone dédié à l'animation : actualités, articles, émissions, interviews…
         </title>
 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
         <script src="js/less.js" type="text/javascript"></script>
+        <script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>    
     </head>
     <body>
     	<div class="header">
@@ -51,9 +53,33 @@
 			  	</div>
 			</div>
     	</div>
-
     	<div class="container">
-		
+			<ul class="breadcrumb container">
+			  	<li class="premier">
+			    	<a href="#">L’Animasphère</a>
+			  	</li>
+			  	<!--<li class="separateur-premier"></li>-->
+				<li class="second active">
+			    	Accueil
+			  	</li>
+			  	<!--<li class="separateur-second"></li>-->
+			  	<li class="troisieme active">
+			    	Bienvenue sur l’Animasphère
+			  	</li>
+			</ul>
+			<div class="carrousel">
+				<div id="slider" class="nivoSlider">
+					<img src="img/demo/nemo.jpg" alt="" title="This is an example of a caption"/>
+				    <a href="http://dev7studios.com">
+				    	<img src="img/demo/up.jpg" alt="" title="#htmlcaption" />
+				    </a>
+				    <img src="img/demo/walle.jpg" alt="" title="This is an example of a caption" />
+				    <img src="img/demo/toystory.jpg" alt="" title="This is an example of a caption"/>
+				</div>
+				<div id="htmlcaption" class="nivo-html-caption">
+				    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+				</div>
+			</div>
 	    	Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non odio purus, semper posuere velit. Quisque tincidunt sapien in erat interdum eget malesuada nulla mattis. Morbi orci nisi, vulputate nec pellentesque ut, vulputate a velit. Morbi lacinia luctus massa, ut porta urna consequat id. Proin cursus gravida dui, non sodales tellus congue id. Mauris vel enim at orci elementum fringilla. Nunc justo ipsum, ultricies vitae placerat at, dictum a ante. Nullam ut magna sem, ac tincidunt felis. Duis laoreet lectus a eros adipiscing vitae tincidunt urna pellentesque. Morbi feugiat gravida ante eu pharetra. Curabitur ac velit turpis. Nam luctus nunc ut massa elementum laoreet. Donec non eros purus, in facilisis odio.
 
 			Proin vel pellentesque orci. In dictum bibendum purus. Nullam pellentesque, metus sit amet imperdiet tempus, mi magna vehicula diam, vel ultrices libero nunc a arcu. Donec sagittis consequat turpis, vel vehicula leo euismod ac. Nunc luctus, lacus non tempor pretium, neque quam porttitor risus, in vehicula sapien lorem nec neque. Pellentesque convallis lobortis elit vitae feugiat. Praesent porttitor, mi tincidunt blandit cursus, ligula arcu faucibus dui, eget ornare mi tortor imperdiet massa. Donec consectetur lectus vel lectus eleifend porta.
@@ -65,5 +91,25 @@
 			Mauris aliquam magna vitae ligula molestie sed sollicitudin nisl dictum. Mauris aliquam dictum lectus. Donec erat nulla, imperdiet a consequat id, bibendum tempor est. Praesent at dui tortor, a auctor ante. Vestibulum lobortis feugiat ante, non lacinia nulla posuere ornare. Etiam arcu nunc, pellentesque vitae lacinia eget, molestie eu odio. Fusce metus lectus, volutpat ac elementum ut, sagittis eget turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum eu turpis orci. Pellentesque in ipsum urna. Curabitur sed pharetra leo.
 	    	<a href="#"> Test</a>
     	</div>
+
+    	<script type="text/javascript">
+			$(window).load(function() {
+			    $('#slider').nivoSlider({
+			        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+			        animSpeed: 500, // Slide transition speed
+			        pauseTime: 3000, // How long each slide will show
+			        startSlide: 0, // Set starting Slide (0 index)
+			        directionNav: true, // Next & Prev navigation
+			        directionNavHide: true, // Only show on hover
+			        controlNav: true, // 1,2,3... navigation
+			        keyboardNav: true, // Use left & right arrows
+			        pauseOnHover: true, // Stop animation while hovering
+			        manualAdvance: false, // Force manual transitions
+			        captionOpacity: 0.9, // Universal caption opacity
+			        prevText: 'Prev', // Prev directionNav text
+			        nextText: 'Next', // Next directionNav text
+		        });
+			});
+		</script>
     </body>
 </html>
