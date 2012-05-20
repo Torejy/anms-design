@@ -15,6 +15,8 @@
         	Animasphère.fr - Site francophone dédié à l'animation : actualités, articles, émissions, interviews…
         </title>
 
+        <link href="img/icon.png" type="image/x-icon" rel="icon" >
+
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
         <script src="js/less.js" type="text/javascript"></script>
         <script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>    
@@ -40,6 +42,7 @@
 							    	<a href="#">Accueil</a>
 							  	</li>
 							  	<li><a href="#">Les actualités</a></li>
+							  	<li><a href="#">Les entrevues</a></li>
 							  	<li><a href="#">Les émissions</a></li>
 							  	<li><a href="#">Les studios</a></li>
 							  	<li><a href="#">Les acteurs de l'animation</a></li>
@@ -58,16 +61,14 @@
 			  	<li class="premier">
 			    	<a href="#">L’Animasphère</a>
 			  	</li>
-			  	<!--<li class="separateur-premier"></li>-->
-				<li class="second active">
+			  	<li class="second active">
 			    	Accueil
 			  	</li>
-			  	<!--<li class="separateur-second"></li>-->
 			  	<li class="troisieme active">
 			    	Bienvenue sur l’Animasphère
 			  	</li>
 			</ul>
-			<div class="carrousel">
+			<div id="carrousel">
 				<div id="slider" class="nivoSlider">
 					<img src="img/demo/nemo.jpg" alt="" title="This is an example of a caption"/>
 				    <a href="http://dev7studios.com">
@@ -79,6 +80,70 @@
 				<div id="htmlcaption" class="nivo-html-caption">
 				    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
 				</div>
+			</div>
+			<div id="actualites_informations" class="row container">
+				<div class="titre">	
+					<div id="titre-actualites">
+						<a href="#">
+							<img src="img/container/bandeau_actu.png" alt="Les dernières actualités" title="Les dernières actualités">
+						</a>
+					</div>
+				    <div id="titre-informations">
+				    	<a href="#">
+							<img src="img/container/bandeau_info.png" alt="Informations variées" title="Informations variées">
+						</a>
+				    </div>
+				</div>
+				<div class="content">	    
+			      	<div id="content-actualites">
+			      		<div class="une_actualite">
+			      			<div class="image">
+			      				<img src="img/demo/actu1.jpg" alt="">
+			      			</div>
+			      			<div class="texte">
+			      				<h4><a href="#">Mise en place d'un partenariat avec zCorrecteurs.fr</a></h4>
+			      				<p>
+			      					Ouverture d’un partenariat avec zCorrecteurs.fr, 
+			      					site spécialisé dans la 
+									relecture et la correction de textes.
+								</p>	                                  		
+			      			</div>
+			      			<div class="informations_complementaires">
+								<a href="#">Vie du site</a> : avant-hier à 21H35
+							</div>
+			      		</div>
+			      		<div class="une_actualite">
+			      			<div class="image">
+			      				<img src="img/demo/actu2.jpg" alt="">
+			      			</div>
+			      			<div class="texte">
+			      				<h4><a href="#">Communication sur les adaptations de Tintin</a></h4>
+			      				<p>
+			      					Le 22 février prochain, à l’université Paul Valéry de Montpellier (Hérault, 
+									FRANCE), se tiendra une communication sur les adaptations du personnage 
+									de Tintin au cinéma…
+								</p>                            		
+			      			</div>
+			      			<div class="informations_complementaires">
+								<a href="#">Truc à voir</a> : le 23/06/2012 à 03H41
+							</div>  
+			      		</div>
+					</div>
+				    <div id="content-informations">
+				    	<div class="une_information">
+				    		<h5>Titre</h5>
+				    		Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit.</b> In non odio purus, semper posuere <i>velit</i>.
+				    	</div>
+				    	<div class="une_information">
+				    		<h5>Titre</h5>
+				    		Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit.</b> In non odio purus, semper posuere <i>velit</i>.
+				    	</div>
+				    	<div class="une_information last">
+				    		<h5>Titre</h5>
+				    		Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit.</b> In non odio purus, semper posuere <i>velit</i>.
+				    	</div>
+			    	</div>
+			    </div>
 			</div>
 	    	Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non odio purus, semper posuere velit. Quisque tincidunt sapien in erat interdum eget malesuada nulla mattis. Morbi orci nisi, vulputate nec pellentesque ut, vulputate a velit. Morbi lacinia luctus massa, ut porta urna consequat id. Proin cursus gravida dui, non sodales tellus congue id. Mauris vel enim at orci elementum fringilla. Nunc justo ipsum, ultricies vitae placerat at, dictum a ante. Nullam ut magna sem, ac tincidunt felis. Duis laoreet lectus a eros adipiscing vitae tincidunt urna pellentesque. Morbi feugiat gravida ante eu pharetra. Curabitur ac velit turpis. Nam luctus nunc ut massa elementum laoreet. Donec non eros purus, in facilisis odio.
 

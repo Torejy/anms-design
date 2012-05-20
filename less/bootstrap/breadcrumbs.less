@@ -9,17 +9,19 @@
   list-style: none;
   background-color: #292929;
   li {
-    //position: relative;
+    position: relative;
+    text-align: center;
     font-size: 12px;
     font-family: Arial;
     font-weight: bold;
     color: @white;
-    padding: 4.5px 13px;
+    min-width: 100px;
+    padding: 4.5px 9px;
     display: inline-block;
     .ie7-inline-block();
   }
   .premier{   
-    //top: -9px;
+    background: no-repeat url("../../img/container/fil_ariane.png"); 
     background-color: @arianePremier;
     a{
       color: @white;
@@ -27,32 +29,15 @@
     }
   }
   .second{
+    background: no-repeat url("../../img/container/fil_ariane.png"); 
+    background-position: 0 -33px;
     background-color: @arianeSecond;
-    //top: -9px;
-    left: -11px;
-    padding: 4.5px 15px;
+    left: -4px;
     a{
       color: @white;
       &:hover { text-decoration: none; }
     }
   }
-  .troisieme {
-    //top: -9px;
-  }
-  /*.separateur-premier{
-    left: -4px;
-    padding: 0;
-    height: 26px;
-    width: 15px;
-    background: no-repeat url("../../img/container/premier_separateur.jpg"); 
-  }
-  .separateur-second{
-    left: -15px;
-    padding: 0;
-    height: 26px;
-    width: 15px;
-    background: no-repeat url("../../img/container/second_separateur.jpg"); 
-  }*/
 
   .divider {
     padding: 0 5px;
