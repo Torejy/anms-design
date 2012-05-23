@@ -1,7 +1,7 @@
 @import "bootstrap/bootstrap.less";
 @import "nivoslider.less";
 
-.header{
+header .header{
 	background-color: @white;
 	height: 133px;
 	margin-bottom : 31px;
@@ -28,18 +28,14 @@
 	}
 }
 
-#message_information{
-	margin: 5px 15px;
-}
-
-#carrousel{
+section #carrousel{
 	height: 185px;	
 }
 
-#actualites_informations{
+section #actualites_informations{
 	margin-top: 15px;
 
-	.titre{
+	header{
 	    
 	    #titre-actualites{
 			width: 597px;
@@ -59,11 +55,11 @@
 	}
 
 	.content{
-		#content-actualites{
+		section #content-actualites{
 			width: 597px;
 			float: left;
 
-			.une_actualite{
+			article .une_actualite{
 				.border-radius(5px);
 				padding: 5px;
 				border: 1px solid #ececec;
@@ -72,7 +68,7 @@
 
 				margin: 5px 0 5px 10px;
 
-				.image {
+				figure {
 					float: left;
 					height: 130px;
 					width: 130px;
@@ -88,7 +84,7 @@
 					p{margin-top: 15px;}	
 				}
 
-				.informations_complementaires{
+				footer{
 					margin-right: 5px;
 					font-style: italic;
 					text-align: right;
@@ -98,23 +94,22 @@
 			}
 		}
 
-		#content-informations{
+		section #content-informations{
 			padding-left: 34px;
 			width: 369px;
 			float: right;
-			.une_information{
-				margin-right: 26px;
-				margin-top: 20px;
-				padding-bottom: 20px;
-				border-bottom: 3px solid #ebebeb;
-			}
+			article{
+				.une_information{
+					margin-right: 26px;
+					margin-top: 20px;
+					padding-bottom: 20px;
+					border-bottom: 3px solid #ebebeb;
+				}
 
-			.last{
-				border-bottom : 0;
-			}
+				.last{
+					border-bottom : 0;
+				}
+			}	
 		}
 	}
-
-	
-	
 }
