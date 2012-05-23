@@ -1,7 +1,7 @@
 @import "bootstrap/bootstrap.less";
 @import "nivoslider.less";
 
-header .header{
+header.header{
 	background-color: @white;
 	height: 133px;
 	margin-bottom : 31px;
@@ -28,11 +28,11 @@ header .header{
 	}
 }
 
-section #carrousel{
+section#carrousel{
 	height: 185px;	
 }
 
-section #actualites_informations{
+section#actualites_informations{
 	margin-top: 15px;
 
 	header{
@@ -55,11 +55,11 @@ section #actualites_informations{
 	}
 
 	.content{
-		section #content-actualites{
+		section#content-actualites{
 			width: 597px;
 			float: left;
 
-			article .une_actualite{
+			article.une_actualite{
 				.border-radius(5px);
 				padding: 5px;
 				border: 1px solid #ececec;
@@ -73,6 +73,7 @@ section #actualites_informations{
 					height: 130px;
 					width: 130px;
 					padding: 4px;
+					margin: 0;
 				}
 
 				.texte{
@@ -94,22 +95,27 @@ section #actualites_informations{
 			}
 		}
 
-		section #content-informations{
+		section#content-informations{
 			padding-left: 34px;
 			width: 369px;
 			float: right;
-			article{
-				.une_information{
+			article.une_information{
 					margin-right: 26px;
 					margin-top: 20px;
 					padding-bottom: 20px;
 					border-bottom: 3px solid #ebebeb;
 				}
 
-				.last{
-					border-bottom : 0;
-				}
-			}	
+			article.last{
+				border-bottom : 0;
+			}
 		}
 	}
+}
+
+footer#footer{
+	border-top: 18px solid #d6d6d6;
+	margin-top: 31px;
+	padding-top: 13px;
+	background-color: @bodyBackground;
 }
